@@ -1,7 +1,6 @@
 Getting an Cleaning Data - Coursera - Jully 2014
 ==================================================================
 Mario Fiamenghi
-mario_fiamenghi@hotmail.com
 ==================================================================
 
 This work have been carried out with the dataset produced by Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio and Luca Oneto from the Smartlab - Non Linear Complex Systems Laboratory
