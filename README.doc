@@ -1,21 +1,13 @@
-Coursera Getting and Cleaning Data Course Project
+Getting an Cleaning Data - Coursera - Jully 2014
+==================================================================
 Mario Fiamenghi
-25/07/2014
+mario_fiamenghi@hotmail.com
+==================================================================
 
+This work have been carried out with the dataset produced by Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio and Luca Oneto from the Smartlab - Non Linear Complex Systems Laboratory
+DITEN - Università degli Studi di Genova.
 
-This script will perform steps in order to clean and organise data from  human activity reconition in smart phones
-This project is part of the course Getting and Cleaning Data course offered online from www.coursera.org in Jully/2014
+The objetive of this project was to provide evidence for the accessment as part of the requirments to obtain credit to the course Getting and Cleaning Data from the Johns Hopkins Bloomberg School of Public Health offered online by Coursera. 
 
-The dataset has been download from:
-#https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
-
-A full description is available at the site bellow: 
-#http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones   
-
-Summary steps performed
-1. Merge the training and the test sets to create one data set.
-2. Extract only the measurements on the mean and standard deviation for each measurement. 
-3. Use descriptive activity names to name the activities in the data set
-4. Appropriately label the data set with descriptive activity names. 
-5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
+The specific purpose is to demonstrate the ability to collect, work with, and clean a data set and to prepare tidy data that can be used for later analysis.
 
