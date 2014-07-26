@@ -13,20 +13,16 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 Steps performed
 Merge the training and the test sets to create one data set.
 A recursive scrip was written in R in order to merge all files in the two data sets. This code used the function rbind from the R library. The script added the test data set records to the last record of the train dataset to produce the consolidated merged data set. A separated folder was created to hold the merged data set. Since the data set have the same columns, the same column structure was maintained in the final merged dataset. The script recursively performed the merging activity for all the files in the test and train data set.
-
 Extract only the measurements on the mean and standard deviation for each measurement. 
 
 In order to extract only the mean and standard variation from the merged data set, the script first creates labels for the columns. The features.txt file was used to name the columns. It was assumed that the variables in the merged file were in the same order as the description for the variable in the feature.txt file.
 The R function grep was used to search for the word “mean” and “std” in columns names. Two subsets of the merged measures were created and subsequently combined using the cbind R function.
 
 Use descriptive activity names to name the activities in the data set
-
 The list of activity records in the file x.txt were giving the column name id and were merged with the file activity_label.txt to create a descriptive list of records of activity. Only the description column was added to the measures data table. Again, it was assumed that the files had same corresponding order for the records.
 
 Appropriately label the data set with descriptive activity names
-
 The description of the variable can be found on the website quoted in above. However in order to keep the consistency of all names, the R function “tolower” was used to transform all the variable name to use only lower case characters. It also used the “gsub” R function to remove all dots characters in the variable names.
 
 Creating a second, independent tidy data set with the average of each variable for each activity and each subject. 
-
 First, the file subject.txt was used to include a column variable for the measures table. It was assumed that the records order were the same for the measures table. The mean for each subject activity was calculated for all the variable. The second tidy table was created and subsequently saved for in the merged file.
