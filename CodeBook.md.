@@ -4,10 +4,10 @@ This script will perform steps in order to clean and organise data from human ac
 This project is part of the course Getting and Cleaning Data course offered online from www.coursera.org in July/2014
 
 The dataset has been downloaded from:
-#https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 A full description is available at the site bellow: 
-#http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones   
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones   
 
 Summary steps performed
 1. Merge the training and the test sets to create one data set.
